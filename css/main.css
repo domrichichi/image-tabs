@@ -17,47 +17,47 @@ html {
 /*Images*/
 
 .image-box {
-	position: relative;
+  position: relative;
 }
 
 .image {
-	display: none;
+  display: none;
 }
 
 .image:target {
-	display: block;
+  display: block;
 }
 
 .image {
-	position: absolute;
+  position: absolute;
 }
 
 .tabs {
-	list-style-type: none;
-	margin: 0;
-	height: 3em;
-	position: absolute;
-	top:44%;
-	left: 32%;
+  list-style-type: none;
+  margin: 0;
+  height: 3em;
+  position: absolute;
+  top: 44%;
+  left: 32%;
 }
 
 .tabs li {
-	display: inline-block;
+  display: inline-block;
 }
 
 .tabs a {
-	width: .7em;
-	height: .7em;
-	border-radius: 100px;
-	border: solid black 5px;
-	display: inline-block;
-	margin-left: 2px;
-	margin-right: 2px;
+  width: .7em;
+  height: .7em;
+  border-radius: 100px;
+  border: solid black 5px;
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 
 
 .tabs li:hover {
-	background-color: black;
-	border-radius: 100px;
+  background-color: black;
+  border-radius: 100px;
 }
