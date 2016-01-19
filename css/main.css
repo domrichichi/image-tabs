@@ -18,10 +18,13 @@ html {
 
 .image-box {
 	position: relative;
+}
+
+.image {
 	display: none;
 }
 
-.image-box:target {
+.image:target {
 	display: block;
 }
 
@@ -31,23 +34,30 @@ html {
 
 .tabs {
 	list-style-type: none;
-	text-align: center;
-	vertical-align: center;
 	margin: 0;
 	height: 3em;
-
+	position: absolute;
+	top:44%;
+	left: 32%;
 }
 
 .tabs li {
-	width: .8em;
-	height: .8em;
+	display: inline-block;
+}
+
+.tabs a {
+	width: .7em;
+	height: .7em;
 	border-radius: 100px;
-	border: solid black 6px;
+	border: solid black 5px;
 	display: inline-block;
 	margin-left: 2px;
 	margin-right: 2px;
 }
 
+
+
 .tabs li:hover {
 	background-color: black;
+	border-radius: 100px;
 }
