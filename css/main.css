@@ -14,7 +14,40 @@ html {
   font-family: sans-serif;
 }
 
-.box {
-	background-color: lightgrey;
+/*Images*/
 
+.image-box {
+	position: relative;
+	display: none;
+}
+
+.image-box:target {
+	display: block;
+}
+
+.image {
+	position: absolute;
+}
+
+.tabs {
+	list-style-type: none;
+	text-align: center;
+	vertical-align: center;
+	margin: 0;
+	height: 3em;
+
+}
+
+.tabs li {
+	width: .8em;
+	height: .8em;
+	border-radius: 100px;
+	border: solid black 6px;
+	display: inline-block;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.tabs li:hover {
+	background-color: black;
 }
